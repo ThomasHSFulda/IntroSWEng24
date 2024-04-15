@@ -14,9 +14,9 @@ public class Calculator {
         return num1 * num2;
     }
 
-    public double divide(double num1, double num2) {
-        if (num2 != 0) {
-            return num1 / num2;
+    public double divide(double number1, double number2) {
+        if (number2 != 0) {
+            return number1 / number2;
         } else {
             throw new IllegalArgumentException("Division by zero is not allowed.");
         }
